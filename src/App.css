@@ -45,15 +45,18 @@ body {
 
 @media all and (max-width: 800px) {
   .header {
-      font-size: 15px;
+    font-size: 15px;
   }
   
   .pics {
-      width: 300px;
+    width: 300px;
   }
   
   .btnBack, .btnNext {
-      font-size: 35px;
+    font-size: 35px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 }
 
@@ -69,10 +72,14 @@ body {
   .btnBack, .btnNext {
       font-size: 25px;
   }
+}
 
+@media all and (max-width: 285px) {
+  .pics {
+    width: 165px;
+  }
+  
   .btnBack, .btnNext {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+      font-size: 18px;
   }
 }
